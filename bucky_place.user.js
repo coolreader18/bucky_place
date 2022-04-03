@@ -19,5 +19,6 @@ if (window.top !== window.self) {
       document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByTagName("mona-lisa-canvas")[0].shadowRoot.children[0].appendChild(i);
     };
     makeImg("coolreader18/bucky_place/main/bucky_overlay.png", false);
+    makeImg("coolreader18/bucky_place/main/chi_overlay.png", false);
   }, false);
 }
