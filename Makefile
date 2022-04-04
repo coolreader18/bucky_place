@@ -15,7 +15,7 @@ build/$1_overlay.png: $1.png
 endef
 
 $(eval $(call overlay,chi,594,399))
-$(eval $(call overlay,bucky_face,278,1552))
+$(eval $(call overlay,bucky_face,277,1552))
 $(eval $(call overlay,wisco,99,579))
 
 bucky_overlay.png: $(OVERLAYS)
