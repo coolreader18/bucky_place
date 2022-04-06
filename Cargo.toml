@@ -1,0 +1,9 @@
+[package]
+name = "placegen"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = "3.1.8"
+image = { version = "0.24.1", default-features = false, features = ["png"] }
+itertools = "0.10.3"
